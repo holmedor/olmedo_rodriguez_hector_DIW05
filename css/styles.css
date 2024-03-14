@@ -1,0 +1,58 @@
+
+.card-title {
+  font-size: x-small;
+  text-justify: auto;
+}
+
+#enlaces {
+  font-size: x-small;
+}
+
+.rounded {
+  width: 100px;
+}
+
+#input1 {
+  width: 200px;
+  height: 30px;
+}
+
+#input2 {
+  width: 310px;
+  height: 30px;
+}
+
+nav {
+  width: 400px;
+}
+
+.rounded-circle {
+  width: 40px;
+}
+
+.outer-container {
+  position: relative;
+  display: inline-table;
+}
+
+.inner-circle {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;   /* Adjust the size of the circle */
+  height: 40px;  /* Adjust the size of the circle */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.inner-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#babestua img {
+  width: 400px;
+  height: 100px;
+}

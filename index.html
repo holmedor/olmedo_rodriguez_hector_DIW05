@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea evaluativa</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--ICONOS https://icons.getbootstrap.com/-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Llamada a la hoja de estilos-->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <div class="container-fluid"> <!--Contenedor modificable en tamaño con 3 columnas para la página-->
+        <div class="row align-items-top justify-content-center">
+            <div class="col-sm-4"> <!-- Columna 1 -->
+                <nav class="navbar navbar-expand-sm bg-white"> <!-- Barra de navegación superior (Logo + Búsqueda) -->
+                    <div class="container-fluid"> <!-- Logo -->
+                        <a class="navbar-brand">
+                            <img src="images/Logo_Birt.PNG" class="rounded" alt="Logo_Birt">
+                        </a>
+                        <div class="collapse navbar-collapse" id="mynavbar"> <!-- Barra de búsqueda con botón-->
+                            <form class="d-flex align-items-center">
+                                <button class="btn btn-block" type="submit"><i class="bi bi-search"></i></button>
+                                <input id="input1" type="text" class="form-control rounded-pill text-secondary bg-dark"
+                                    placeholder="Bilatu">
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+                <ul class="nav flex-column"> <!-- Lista de links con sus iconos -->
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <img src="images/persona1.jpg" class="rounded-circle" alt="persona1"> Gorka Zengotita
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="bi bi-people"></i> Lagunak </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="bi bi-flag"></i> Orrialdeak </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="bi bi-folder"></i> Taldeak </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="bi bi-bag"></i> Azoka </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="bi bi-tv"></i> Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><i class="bi bi-calendar-event"></i> Ekialdiak </a>
+                    </li>
+                </ul>
+                <nav class="navbar navbar-expand-sm bg-white"> <!-- Lista de enlaces -->
+                    <ul id="enlaces" class="nav">
+                        <li><a href="#" class="nav-link">Pribatasuna</a></li>
+                        <li><a href="#" class="nav-link">Baldintzak</a></li>
+                        <li><a href="#" class="nav-link">Iragarkiak</a></li>
+                        <li><a href="#" class="nav-link">Iragarkien hobespenak</a></li>
+                        <li><a href="#" class="nav-link">Cookieak</a></li>
+                        <li><a href="#" class="nav-link">Gehiago</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-4"> <!-- Columna 2 -->
+                <nav class="navbar navbar-expand-sm justify-content-around">
+                    <!-- Barra de navegación superior con sus respectivos iconos -->
+                    <ul class="nav nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-bs-toggle="pill" href="#home"><i
+                                    class="bi bi-house-door-fill"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#friends"><i class="bi bi-people"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#folder_plus"><i
+                                    class="bi bi-collection-play"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#flag"><i class="bi bi-shop"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="pill" href="#bag"><i class="bi bi-upload"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--4 IMÁGENES EN TARJETAS-->
+                <div class="row align-items-center justify-content-center" style="width:400px"> <!-- Tarjeta 0 -->
+                    <div class="col-md-3"><!-- Tarjeta 0.1 OK-->
+                        <div class="card">
+                            <img class="card-img-top" src="images/persona1.jpg" alt="Image 1">
+                            <a href="#" class="card-title text-center" style="text-decoration: none"> Sortu berria </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">                        <!-- Tarjeta 0.2 -->
+                        <div class="card" style="overflow: hidden;position: relative;">
+                            <img class="rounded h-100" src="images/paisaje2.jpg" alt="Main Image"
+                            style="height: 100%;width: 260%;">
+                            <div class="inner-circle">
+                                <img src="images/persona2.jpg" class="img-fluid" alt="Circular Image 1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">                        <!-- Tarjeta 0.3-->
+                        <div class="card" style="overflow: hidden;position: relative;">
+                            <img class="rounded h-100" src="images/paisaje1.jpg" alt="Main Image"
+                            style="height: 100%;width: 200%;">
+                            <div class="inner-circle">
+                                <img src="images/persona3.jpg" class="img-fluid" alt="Circular Image 2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">                        <!-- Tarjeta 0.4-->
+                        <div class="card" style="overflow: hidden;position: relative;">
+                            <img class="rounded h-100" src="images/ad1.jpg" alt="Main Image"
+                            style="height: 100%;width: 300%;">
+                            <div class="inner-circle">
+                                <img src="images/persona4.jpg" class="img-fluid" alt="Circular Image 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width:400px"> <!-- Tarjeta 1 -->
+                    <img class="card-img-top" src="images/" alt="" style="width:100%">
+                    <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <form class="d-flex align-items-center justify-content-between">
+                            <img src="images/persona1.jpg" class="rounded-circle" alt="persona1">
+                            <input id="input2" type="text"
+                                class="text-primary form-control rounded-pill text-secondary bg-dark"
+                                placeholder="Zer darabilzu gogoan, Gorka?">
+                        </form>
+                        <hr style="color: black; background-color: black; width:100%;" />
+                        <div class="text-center">
+                            <a href="#" class="btn text-primary"><i class="bi bi-camera-video"></i> Zuzeneko
+                                Bideoa</a>
+                            <a href="#" class="btn text-primary"><i class="bi bi-images"></i> Argazkiak</a>
+                        </div>
+                    </div>
+                </div>
+                </br>
+                <div class="card" style="width:400px">
+                    <!-- Tarjeta 2 -->
+                    <div class="d-flex justify-content-start align-items-top">
+                        <div><a href="#" class="btn me-auto text-primary"
+                                style="align-items: center;font-size: x-small;"><img src="images/persona3.jpg"
+                                    class="rounded-circle" alt="persona3"></i>
+                            </a>
+                        </div>
+                        <div class="text-primary text-wrap">Jaione Perez <br>
+                            <p style="font-size: x-small;">Ordu 1</p>
+                        </div>
+                    </div>
+                    <p class="text-primary" style="margin: 10px;font-size: x-small;">Lorem ipsum dolor sit amet</p>
+                    <img class="card-img-top p-2" src="images/paisaje1.jpg" alt="paisaje1" style="width:100%">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="card-title bi bi-hand-thumbs-up-fill" style="text-decoration: none;">
+                                60</a>
+                            <a href="#" class="card-title" style="text-decoration: none;"> 7 iruzkin</a>
+                        </div>
+                        <div class="row gap-2 justify-content-center">
+                            <button href="#" class="btn btn-primary col-sm-5 pl-10"><i class="bi bi-hand-thumbs-up"></i>
+                                Atsegin
+                                dut</button>
+                            <button href="#" class="btn btn-primary col-sm-5 pr-10"><i class="bi bi-chat"></i>
+                                Iruzkindu</button>
+                        </div>
+                    </div>
+                </div>
+                </br>
+                <div class="card" style="width:400px">
+                    <!-- Tarjeta 3 -->
+                    <div class="d-flex justify-content-start align-items-center">
+                        <div> <a href="#" class="btn me-auto text-primary"
+                                style="align-items: center;font-size: x-small;"><img src="images/persona2.jpg"
+                                    class="rounded-circle" alt="persona2"></i>
+                            </a>
+                        </div>
+                        <div class="text-primary text-wrap">Iker Arana <br>
+                            <p style="font-size: x-small;">2 Ordu</p>
+                        </div>
+                    </div>
+                    <p style="margin: 10px;font-size: x-small;" class="text-primary">Lorem ipsum dolor sit amet</p>
+                    <img class="card-img-top p-2" src="images/paisaje2.jpg" alt="paisaje1" style="width:100%">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <a href="#" class="card-title bi bi-hand-thumbs-up-fill" style="text-decoration: none;">
+                                75</a>
+                            <a href="#" class="card-title" style="text-decoration: none;"> 3 iruzkin</a>
+                        </div>
+                        <div class="row gap-2 justify-content-center">
+                            <button href="#" class="btn btn-primary col-sm-5 pl-10"><i class="bi bi-hand-thumbs-up"></i>
+                                Atsegin
+                                dut</button>
+                            <button href="#" class="btn btn-primary col-sm-5 pr-10"><i class="bi bi-chat"></i>
+                                Iruzkindu</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4"> <!-- Columna 3 -->
+                <nav class="navbar navbar-expand-sm bg-white navbar-white justify-content-center">
+                    <!-- Barra de navegación superior -->
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#border"><i class="bi bi-grid-3x3-gap-fill"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#comment"><i class="bi bi-messenger"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bell"><i class="bi bi-bell"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" href="#gorka">
+                                <img src="images/persona1.jpg" class="rounded-circle" alt="persona1">Gorka
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--KONTAKTUAK-->
+                </br>
+                <h6 class="text-primary"> Kontaktuak</h6> <!-- Lista de links con imágenes -->
+                <div class="list-group" style="width:400px">
+                    <a href="#" class="list-group-item list-group-item-action text-primary" placeholder="Search">
+                        <img src="images/persona2.jpg" class="rounded-circle" alt="persona2"></i> Iker Arana</a></a>
+                    <a href="#" class="list-group-item list-group-item-action text-primary" placeholder="Search">
+                        <img src="images/persona3.jpg" class="rounded-circle" alt="persona3"></i> Jaione
+                        Perez</a></a>
+                    <a href="#" class="list-group-item list-group-item-action text-primary" placeholder="Search">
+                        <img src="images/persona4.jpg" class="rounded-circle" alt="persona4"></i> Mikel
+                        Ardanza</a></a>
+                    <a href="#" class="list-group-item list-group-item-action text-primary" placeholder="Search">
+                        <img src="images/persona5.jpg" class="rounded-circle" alt="persona5"></i> Itziar
+                        Gortazar</a></a>
+                </div>
+                <!--TALDEAK-->
+                <h6 class="text-primary"> Taldeak</h6> <!-- Lista de links con imágenes -->
+                <div class="list-group" style="width:400px">
+                    <a href="#" class="list-group-item list-group-item-action text-primary" placeholder="Search">
+                        <img src="images\DAM.png" class="rounded-circle border border-primary" alt="DAM"></i>
+                        DAM</a></a>
+                    <a href="#" class="list-group-item list-group-item-action text-primary" placeholder="Search">
+                        <img src="images\DAW.png" class="rounded-circle border border-primary" alt="DAW"></i>
+                        DAW</a></a>
+                </div>
+                <!--BABESTUA-->
+                <div id="babestua">
+                    <h6 class="text-primary">Babestua</h6> <!-- 2 imágenes -->
+                    </br></br>
+                    <img src="images/ad2.jpg" class="rounded" alt="ad2">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+$principal:rgb(0,154,183);
+$secundario:rgb(176,224,230);
+$blanco:#fff;
+$storie:rgba(0,154,183,.2);
